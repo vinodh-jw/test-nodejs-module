@@ -1,0 +1,19 @@
+{
+  "name": "test-nodejs-module",
+  "version": "1.0.0",
+  "description": "a sample test js module",
+  "main": "bin/vibe-deploy-prepare.js",
+  "scripts": {
+    "deploy": "node bin/vibe-deploy-prepare.js"
+  },
+  "bin": {
+    "vibe-generate-helm" : "./bin/vibe-deploy-prepare.js"
+  },
+  "engines": {
+    "node": "~18.12.1",
+    "npm": ">=8.19.2"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
